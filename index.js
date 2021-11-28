@@ -6,7 +6,7 @@ const morgan   = require('morgan');
 const path     = require('path');
 
 // config vars
-const port = process.env.PORT        || 8080;
+const port = process.env.PORT        || 3000;
 const db   = process.env.MONGODB_URI || 'mongodb://localhost/notas';
 
 // crear app
