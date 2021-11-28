@@ -7,7 +7,8 @@ const path     = require('path');
 
 // config vars
 const port = process.env.PORT        || 3000;
-const db   = process.env.MONGODB_URI || 'mongodb://localhost/notas';
+const db   =  "mongodb+srv://notas:proyectoinformatico@bdnotas.hrjk2.mongodb.net/BDnotas?retryWrites=true&w=majority"
+
 
 // crear app
 const app = express();
